@@ -3,13 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>Rock Paper Scissor</h1>
-  <script type="text/JavaScript" src="./RPSscript-ver2.js">
-    // Your JavaScript goes here!
-  </script>
 
-  
+<body>
+  <h1>Rock Paper Scissor</h1>
+
+  <div class = 'score'>
+       <div class="pScore">
+          <h2>Player Score</h2>
+          <div class="playerScore"></div>
+       </div>
+     <div class = "cScore">
+          <h2>Computer Score</h2>
+          <div class = "computerScore"></div>
+     </div>
+  </div>
+
+  <div class = 'game'>
+        <h2> Game Round</h2>
+        <div class = "gameMove"></div>
+  </div>
+
+  <div class="options">
+      <button class ="rock">rock</button>
+      <button class ="paper">paper</button>
+      <button class ="scissor">scissor</button>
+  </div>
+
+  <div class = "result">
+      <h2>Result</h2>
+      <div class="resultMatch"></div>
+      <div class = "computerChoice"></div>
+  </div>
+
+  <div class="gameEnd">
+    
+  </div>
+
+
+<script type="text/JavaScript" src="./RPSscript-ver4.js">
+  // Your JavaScript goes here!
+</script>
+
 </body>
+
 </html>
