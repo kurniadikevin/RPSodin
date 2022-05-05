@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options{
+    padding-top: 50px;
+}
+button{
+    width: 60px;
+    height: 54px;
+}
+.win{
+    color: firebrick;
+}
+
+.lose{
+    color: firebrick;
+}
+.tie{
+    color: firebrick;
+}
+
+.gameEnd{
+    padding-top: 30px;
+}
